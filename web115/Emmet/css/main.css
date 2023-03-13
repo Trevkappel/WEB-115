@@ -1,0 +1,31 @@
+#closing{
+    font-size: 2em;
+}
+
+.cell1{
+    background: rebeccapurple;
+}
+.row1{
+    background: green;
+}
+.row1 .cell1{
+    background: red;
+}
+nav{
+    box-sizing: border-box;
+    border: black solid 5px;
+    border-radius: 20px;
+    background: turquoise;
+}
+body{
+    background: teal;
+}
+li{
+    display: inline;
+    list-style-type: none;
+    margin: 100px;
+}
+li a{ 
+    text-decoration: none;
+    font-weight: bolder;
+}

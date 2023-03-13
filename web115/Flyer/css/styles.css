@@ -1,0 +1,97 @@
+.grid-container {
+    display: grid;
+    background-color: #ffffff;
+    grid-gap: 10px;
+    padding: 10px;
+    width: 100%;
+    grid-template-areas:'one one one two'
+    'three three four four' 'three three four four' 'five six seven eight';
+}
+.grid-container div{
+    min-height: 250px;
+}
+body{
+    background-color: blanchedalmond;
+}
+
+.storename{
+    background-color: green;
+    color: #ffffff;
+    grid-area: one;
+    height: 150px;
+    font-size: 500%;
+    text-align: center;
+    padding: 10px;
+}
+
+.storename img{
+    margin-top: 10px;
+}
+
+.ad{
+    height: 170px;
+    grid-area: two;
+    background-image:url(../img/ad.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+mark{
+    color: #ffffff;
+    background-color: red;
+    padding: 10px;
+    border-bottom-right-radius: 15px;
+    padding-right: 10px;
+    padding-bottom: 12px;
+}
+
+.main1{
+    grid-area: three;
+    background-image:url(../img/tangerine-syrup.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1500px;
+    font-size: 128px;
+}
+.main2{
+    grid-area: four;
+    background-image:url(../img/Pomegranate_Juice.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1500px;
+    font-size: 128px;
+}
+.main3{
+    grid-area: five;
+    background-image:url(../img/Star-Fruit.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 32px;
+}
+.main4{
+    grid-area: six;
+    background-image:url(../img/ribeye-steak.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 32px;
+}
+.main5{
+    grid-area: seven;
+    background-image:url(../img/strawberri.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 32px;
+}
+.main6{
+    grid-area: eight;
+    background-image:url(../img/checken-wings.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 32px;
+}

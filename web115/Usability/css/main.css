@@ -1,0 +1,121 @@
+:root{
+    --background-color: rgb(225, 210, 230);
+    --accent-color: purple;
+    --text-color: white;
+    --standout-text: rgb(33, 230, 33);
+    --faded-text: rgb(0, 0, 0);
+    --footer-background: rgb(95, 56, 109);
+}
+img{
+width: 100%;
+}
+h2{
+    font-size: 2.5em;
+    clear: both;
+    color: var(--text-color);
+}
+body{
+    background-color: var(--footer-background);
+    
+}
+nav li{
+    display: inline;
+    list-style-type: none;
+    margin: 150px;
+    box-sizing: border-box;
+    border: var(--accent-color) solid 5px;
+    border-radius: 20px;
+    padding: 10px;
+    background: var(--background-color);
+}
+nav li a{ 
+    text-decoration: none;
+    font-weight: bolder;
+    color: var(--faded-text);
+}
+Header{
+    min-height: 200px;
+    background-repeat: no-repeat;
+    
+    background-size: 100% 100%;
+    background-color: gray;
+    color: var(--faded-text);
+}
+Header h1{
+    font-size: 4em;
+    padding-top: 200px;
+    text-align: center;
+}
+main{
+    border: var(--accent-color) solid 3px;
+    background-color: white;
+    font-size: 1.5em;
+    margin: 25px 20px;
+    padding: 10px 15px;
+    width: 73%;
+    float: left;
+}
+aside{
+    border: var(--accent-color) solid 3px;
+    background-color: white;
+    font-size: 1em;
+    padding: 10px 5px;
+    float: left;
+    width: 20%;
+    margin: 25px 20px;
+}
+aside img{
+    width: 300px;
+}
+#break{
+    width: 100%;
+    float:none;
+}
+.other{
+    border: var(--accent-color) solid 3px;
+    background-color: white;
+    font-size: 1em;
+    margin: 25px 20px;
+    padding: 10px 15px;
+    width: 73%;
+    float: left;
+
+}
+.leftimg{
+    width: 150px;
+    float: left;
+    padding: 5px ;
+}
+/* Footer */
+footer{
+    color:var(--text-color);
+    background-color: var(--footer-background);
+    text-align: center;
+    width: 100%;
+    float: none;
+}
+.footlink{
+float: left;
+padding: 0px;
+}
+.footlink li{
+    list-style-type: none;
+}
+.footlink li a{
+    text-decoration: none;
+    color: var(--text-color);
+    font-size: 1em;
+}
+#inner-footer{
+    width: 10%;
+    min-height: 100px;
+    margin: auto;
+    padding: 20px;
+    color:var(--faded-text);
+    background-color: var(--footer-background);
+    text-align: left;
+    
+}
+#right{
+    float: right;
+}

@@ -1,0 +1,158 @@
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: #731dac;
+    grid-gap: 10px;
+    padding: 10px;
+    width: 50%;
+    margin: auto;
+  }
+  .grid-container div {
+    background-color: rgba(189, 132, 226, 1);
+    text-align: center;
+    padding: 15px;
+    font-size: 35px;
+    text-align: left;
+    border-radius: 5px;
+  }
+
+   li{
+    display: inline;
+    border: #421163 solid 2px;
+    background: rgba(189, 132, 226, 1);
+    padding: 8px;
+    border-radius: 10px;
+    margin-left: 10%;
+  }
+
+  li a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.7em;
+  }
+
+  li a:hover{
+    color: lavender;
+  }
+
+  li:hover{
+    color: lavender;
+    background: rgb(45, 28, 56);
+    border: whitesmoke solid 2.5px;
+  }
+
+  nav{
+    width: 100%;
+  }
+
+  body{
+    background: #0b030f;
+  }
+
+  .disabled a{
+    color: black;
+  }
+.disabled{
+    background-color: gray;
+    border: darkgray 2px;
+}
+.disabled:hover{
+    background-color: gray;
+    border: darkgray 2px;
+}
+
+.disabled a:hover{
+    color: black;
+}
+
+.contain2{
+    display: grid;
+    grid-template-areas:'one two three'
+    'four five six';
+    gap: 10px;
+}
+
+.contain2 .grid1{
+    grid-area: five;
+}
+.contain2 .grid2{
+    grid-area: three;
+}
+.contain2 .grid3{
+    grid-area: two;
+}
+.contain2 .grid4{
+    grid-area: four;
+}
+.contain2 .grid5{
+    grid-area: one;
+}
+.contain2 .grid6{
+    grid-area: six;
+}
+
+.contain3{
+    grid-template-areas: 
+    ' first first second second'
+    ' third fourth fourth fourth'
+    'fifth fifth fifth fifth';
+}
+.contain3 .grid1{
+    grid-area: first;
+}
+.contain3 .grid2{
+    grid-area: second;
+}
+.contain3 .grid3{
+    grid-area: third;
+}
+.contain3 .grid4{
+    grid-area: fourth;
+}
+.contain3 .grid5{
+    grid-area: fifth;
+}
+
+.contain4{
+    grid-template-areas: 
+    'blank head head'
+    'side cont cont'
+    'foot foot foot';
+}
+
+.contain4 .grid1{
+    grid-area: head;
+}
+.contain4 .grid2{
+    grid-area: side;
+}
+.contain4 .grid3{
+    grid-area: cont;
+}
+.contain4 .grid4{
+    grid-area: foot;
+}
+
+.contain5{
+    grid-template-areas: 
+    'head head head'
+    'side cont cont'
+    'side2 side2 side2'
+    'foot foot foot';
+}
+
+.contain5 .grid1{
+    grid-area: head;
+}
+.contain5 .grid2{
+    grid-area: side;
+}
+.contain5 .grid3{
+    grid-area: cont;
+}
+.contain5 .grid4{
+    grid-area: side2;
+}
+.contain5 .grid5{
+    grid-area: foot;
+}

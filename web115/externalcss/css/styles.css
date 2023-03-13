@@ -1,0 +1,43 @@
+body{
+    background-color:rgba(173, 154, 131, 0.4) ;
+}
+h1{
+    text-align:center;
+    border:1px solid yellow;
+    color:#ffffff;
+}
+#indent{
+    margin-left: 25px
+}
+#bold-div {
+    font-weight: bold; 
+    margin-left: 30px
+}
+#large-ff{
+    font-size: x-large;
+     color: #ffffff
+}
+h2{
+    background: blue;
+    color: orange;
+    line-height: 50px;
+    font-size: 40px
+}
+em{
+    font-weight: 900
+}
+.fantasy-attr{
+    font-family: 'comic sans ms', fantasy;
+     color: green;
+}
+#grey-bol{
+    font-size: x-large;
+    font-style: italic;
+}
+img{
+    width:300px; height:250px; border: 2px solid #fff
+}
+a{
+    font-size:30px;
+     color:red;
+}

@@ -1,0 +1,24 @@
+
+.card{
+    width: 300px;
+    border: 2px solid orange;
+    box-shadow: 10px 10px 5px gray;
+    border-radius: 5px;
+    margin: 20px;
+}
+
+.card img{
+   width: 100%; 
+}
+
+.card h2{
+    text-shadow: 5px 0px 3px red,-5px -0px 3px blue;
+    /* I know that the shadow is a bit ugly but I wanted to experiment to see how a glich effect could possibly be done with css */
+    text-align: center;
+}
+.card p{
+    margin: 5px;
+}
+.card figcaption{
+    text-align: center;
+}

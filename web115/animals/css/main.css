@@ -1,0 +1,55 @@
+*{
+    box-sizing: border-box;
+}
+
+:root{
+    --background-color:rgb(224, 179, 137);
+    --figcaption-color:rgb(73, 165, 172);
+    --figure-color:rgb(122, 38, 122);
+    --text-color:white;
+    --border-radius: 20px;
+}
+body{
+    background-color: var(--background-color);
+}
+
+h1{
+    text-align: center;
+    font-size: 3em;
+}
+
+figure img {
+    display: block;
+    width: 450px;
+    height: auto;
+    border-radius: var(--border-radius);
+    margin-bottom: 1.25em;
+}
+
+figure figcaption{
+    display: block;
+    text-align: center;
+    font-size: 1.5em;
+    background: var(--figcaption-color);
+    padding: 1.25em;
+    border-radius: var(--border-radius);
+    color: var(--text-color);
+}
+
+figure {
+    margin: 0px 15px 0px auto;  /* top right bottom left*/
+    display: inline-block;
+    padding: 1.25em;
+    background: var(--figure-color);
+    border-radius: var(--border-radius);
+
+}
+
+section{
+    width: 65%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1.25em;
+    color: var(--text-color);
+}

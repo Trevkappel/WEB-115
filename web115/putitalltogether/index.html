@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>News site</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <div class="hero-img">
+                    <div class="hero-text">
+                        <h1>News of the week</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <!-- Creit to https://stackoverflow.com/a/64647742 -->
+                        <button id="ASong" onClick="playPause()"><audio src="audio/funky-town-djlunatique.com.mp3"
+                                loop></audio>Learn More</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-8">
+                <article class="card">
+                    <h2>Featured story</h2>
+                    <figure>
+                        <img src="images/grass.jpg" alt="A work of art from the art institure of chicago">
+                        <figcaption>Lorem ipsum dolor sit amet.</figcaption>
+                    </figure>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis dolore ipsam reiciendis
+                        dolores. Quae magnam repellendus quaerat recusandae id esse asperiores accusamus impedit
+                        voluptatibus non!</p>
+                </article>
+            </div>
+            <div class="col-md-4">
+                <h1 class="Other">Other News</h1>
+                <div class="img-gallery">
+                    <section>
+                        <figure data-bs-toggle="tooltip" data-bs-placement="right" title="Click to learn more">
+                            <img src="images/kevin.jpg" alt="Keving showing off his stocks" data-bs-toggle="tooltip"
+                                data-bs-placement="right" title="Click to learn more">
+                            <figcaption data-bs-toggle="tooltip" data-bs-placement="right" title="Click to learn more">
+                                Local Kevin learns about day trading
+                            </figcaption>
+                        </figure>
+                        <figure data-bs-toggle="tooltip" data-bs-placement="right" title="Click to learn more">
+                            <img src="images/Fiss.jpg" alt="A fish" data-bs-toggle="tooltip" data-bs-placement="right"
+                                title="Click to learn more">
+                            <figcaption data-bs-toggle="tooltip" data-bs-placement="right" title="Click to learn more">
+                                Local trout population affected by drunk fishermen.
+                            </figcaption>
+                        </figure>
+                        <figure data-bs-toggle="tooltip" data-bs-placement="right" title="Click to learn more">
+                            <img src="images/coke_bear.jpg" alt="Two bears fighting" data-bs-toggle="tooltip"
+                                data-bs-placement="right" title="Click to learn more">
+                            <figcaption data-bs-toggle="tooltip" data-bs-placement="right" title="Click to learn more">
+                                Cocaine Bear already nominated for grammy
+                            </figcaption>
+                        </figure>
+                        <figure data-bs-toggle="tooltip" data-bs-placement="right" title="Click to learn more">
+                            <img src="images/thirst.jpg" alt="A WHOLE lotta water" data-bs-toggle="tooltip"
+                                data-bs-placement="right" title="Click to learn more">
+                            <figcaption data-bs-toggle="tooltip" data-bs-placement="right" title="Click to learn more">
+                                Man wakes up so thirsty he clams he could drink a lake
+                            </figcaption>
+                        </figure>
+                    </section>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md">
+                    <h1 class="Other">Recent News</h1>
+                    <article class="news-blurb">
+                        <div class="text-side">
+                            <h2>A poem for a peon</h2>
+                            <p>According to all known laws of aviation, there is no way a bee should be able to fly. Its
+                                wings are too small to get its fat little body off the ground.
+                                The bee, of course, flies anyway because bees don't care what humans think is
+                                impossible. Yellow, black. Yellow, black. Yellow, black. Yellow, black.
+                                Ooh, black and yellow! Let's shake it up a little.</p>
+                            <button>Learn More</button>
+
+                        </div>
+                        <figure>
+                            <img src="images/rbf_owl.jpg" alt="Owl staring intently">
+                            <figcaption>Pictured above is the reaction by the local citizens</figcaption>
+                        </figure>
+                    </article>
+                    <article class="news-blurb">
+                        <div class="text-side">
+                            <h2>MAN STRAIGHT UP BUSTS IT DOWN</h2>
+                            <p>I'm Rick Harrison, and this is my pawn shop. I work here with my old man and my son, Big
+                                Hoss. Everything in here has a story and a price.
+                                One thing I've learned after 69 years - you never know what is gonna come through that
+                                door.</p>
+                            <button>Learn More</button>
+
+                        </div>
+                        <figure>
+                            <img src="images/bussin_it_down.jpg" alt="Man striking a pose">
+                            <figcaption>This dude actually think he is HIM.</figcaption>
+                        </figure>
+                    </article>
+                </div>
+            </div>
+            <div class="row">
+                <div class="colmd">
+                    <h1 class="Other" id="bigap">Comments</h1>
+                    <article class="comment">
+                        <div class="left">
+                            <figure>
+                                <img src="images/jhonpfp.jpg" alt="A profile picture for Jhon Gardener">
+                                <figcaption>Jhon Gardener</figcaption>
+                            </figure>
+                        </div>
+                        <div class="right">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis dolore ipsam reiciendis
+                                dolores. Quae magnam repellendus quaerat recusandae id esse asperiores accusamus impedit
+                                voluptatibus non!</p>
+                        </div>
+                    </article>
+                    <article class="comment">
+                        <div class="left">
+                            <figure>
+                                <img src="images/jimmypfp.jpg" alt="A profile picture for Jimmy Neutron">
+                                <figcaption>Jimmy Neutron</figcaption>
+                            </figure>
+                        </div>
+                        <div class="right">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis dolore ipsam reiciendis
+                                dolores. Quae magnam repellendus quaerat recusandae id esse asperiores accusamus impedit
+                                voluptatibus non!</p>
+                        </div>
+                    </article>
+                </div>
+
+            </div>
+        </div>
+        <!-- Creit to https://stackoverflow.com/a/64647742 -->
+        <script>
+            var aud = document.getElementById("ASong").children[0];
+            var isPlaying = false;
+            aud.pause();
+
+            function playPause() {
+                if (isPlaying) {
+                    aud.pause();
+                } else {
+                    aud.play();
+                }
+                isPlaying = !isPlaying;
+            }
+        </script>
+</body>
+
+</html>
